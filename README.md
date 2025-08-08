@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Calculator App 🧮
 
-First, run the development server:
+A simple calculator built with **React (Next.js 15)** and **JavaScript**.
+
+## ✨ Features
+
+- Basic arithmetic operations: `+`, `-`, `*`, `/`
+- Support for decimals and double zero (`00`)
+- `C` (Clear All) button to reset input
+- `CE` (Clear Entry) button to delete the last character
+- Error handling for invalid expressions
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/calculator-app.git
+cd calculator-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app should now be running on [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- React (with Next.js 15)
+- JavaScript (no TypeScript)
+- CSS (or Tailwind if you customize further)
 
-## Learn More
+## 📂 Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+/app
+  └── Calculator.jsx   # Calculator component (this file)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Calculator Preview](preview.png)
 
-## Deploy on Vercel
+## ⚠️ Disclaimer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This calculator uses `eval()` for quick evaluation. **Do not** use this approach in production applications without sanitizing inputs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Created with ❤️ by Jerannn24

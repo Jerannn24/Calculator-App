@@ -43,8 +43,22 @@ The app should now be running on [http://localhost:3000](http://localhost:3000)
 ## 📂 Folder Structure
 
 ```
-/app
-  └── Calculator.jsx   # Calculator component (this file)
+calculator-app/
+├── app/
+│   ├── component/
+│   │   └── Calculator.js
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── public/
+│   └── favicon.ico
+├── .gitignore
+├── README.md ✅
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
 ```
 
 ## 📸 Preview

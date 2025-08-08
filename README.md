@@ -16,8 +16,8 @@ A simple calculator built with **React (Next.js 15)** and **JavaScript**.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/calculator-app.git
-cd calculator-app
+git clone https://github.com/yourusername/Calculator-app.git
+cd Calculator-app
 ```
 
 ### 2. Install dependencies

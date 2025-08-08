@@ -1,9 +1,9 @@
-import calculator from "./component/calculator";
+import Calculator from "./component/calculator";
 
 export default function Home() {
   return (
     <div>
-      <calculator />
+      <Calculator />
     </div>
   );
 }

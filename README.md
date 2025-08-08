@@ -61,10 +61,6 @@ calculator-app/
 ├── postcss.config.mjs
 ```
 
-## 📸 Preview
-
-![Calculator Preview](preview.png)
-
 ## ⚠️ Disclaimer
 
 This calculator uses `eval()` for quick evaluation. **Do not** use this approach in production applications without sanitizing inputs.
